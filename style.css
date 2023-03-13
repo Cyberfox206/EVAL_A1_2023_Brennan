@@ -57,6 +57,15 @@ a {
     font-size: 15px;
 }
 
+table {
+    text-align: center;
+    width: 85%;
+}
+
+th {
+    background-color: #4F5D75;
+}
+
 button {
     font-size: 10px;
     text-transform: uppercase;
