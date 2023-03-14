@@ -15,7 +15,7 @@ body {
 
 header {
     width: 100%;
-    height: 12%;
+    height: 15%;
     justify-content: space-around;
     background-color: #4F5D75;
     align-items: center;
@@ -49,7 +49,7 @@ li {
     margin: 10px;
 }
 
-a {
+.atop {
     text-decoration: none;
     color: white;
     font-family: 'Lato', sans-serif;
@@ -82,7 +82,6 @@ button {
     margin: 10px;
 }
 
-
 table {
     border: #BFC0C0 solid 1px;
     text-align: center;
@@ -104,7 +103,6 @@ th {
 }
 
 #blogsection {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,4 +138,138 @@ th {
     text-transform: uppercase;
     font-size: 12px;
     text-align: center;
+}
+
+footer {
+    background-color: #4F5D75;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+form {
+    width: 45%;
+}
+
+#fomrulairedecontacttitre {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    margin: 15px;
+    text-align: center;
+}
+
+#lineveredenschool {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#lieneden {
+    font-family: 'Lato', sans-serif;
+    color: #EF8354;
+}
+
+#info {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+#divradio {
+    border: solid white 1px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#divnametmail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#btnradio1 {
+    margin: 10px;
+}
+
+#btnradio2 {
+    margin: 10px;
+}
+
+#btnradio3 {
+    margin: 10px;
+}
+
+#titrevotrejeuprefere {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#divjeu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+#divmessage {
+    display: flex;
+    flex-direction: column;
+}
+
+.lord {
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin: 10px;
+}
+
+@media (min-width:680px) {
+
+    header {
+        width: 100%;
+        height: 15%;
+        justify-content: space-evenly;
+        background-color: #4F5D75;
+        align-items: center;
+        display: flex;
+    }
+
+    div {
+        display: flex;
+    }
+
+    li {
+        display: inline;
+    }
+
+    table {
+        width: 50%;
+    }
+
+    #blogsection {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #titreblog {
+        width: 100%;
+    }
+
+    .articleBlog {
+        width: 40%;
+        margin: 40px;
+    }
+
 }
